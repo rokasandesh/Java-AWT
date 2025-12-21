@@ -1,6 +1,6 @@
 import java.awt.*;
-public class MyFrame extends Frame {
-    public MyFrame(){
+class Demo extends Frame {
+    public Demo(){
         setTitle("Hello");
         setSize(200,300);
         setBackground(Color.BLACK);
@@ -8,9 +8,9 @@ public class MyFrame extends Frame {
     }
 }
 
-class Demo
+public class MyFrame
 {
     public static void main(String[] args) {
-        new MyFrame();
+        new Demo();
     }
 }
