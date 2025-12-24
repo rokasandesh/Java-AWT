@@ -79,7 +79,7 @@ class Demo extends Frame
 
              pTop = new Panel();
              pTop.setLayout(null);
-             pTop.setBounds(10, 50, 680, 290);
+             pTop.setBounds(10, 55, 680, 285);
              pTop.setBackground(Color.GREEN);
 
              upper = new Panel();
@@ -100,10 +100,6 @@ class Demo extends Frame
              lbl_lastname.setFont(fon);
              txtln = new TextField(27);
 
-             lbl_lastname = new Label("Last Name");
-             lbl_lastname.setFont(fon);
-             txtln = new TextField(27);
-
              upper.add(ch);
              upper.add(lbl_name);
              upper.add(txtname);
@@ -114,7 +110,7 @@ class Demo extends Frame
              pGender = new Panel();
              pGender.setBounds(5, 35, 670, 30);
              pGender.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
-             pGender.setBackground(Color.WHITE);
+             pGender.setBackground(Color.white);
              lbl_Gender = new Label("Gender");
 
              cgGender = new CheckboxGroup();
