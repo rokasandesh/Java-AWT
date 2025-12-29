@@ -11,7 +11,7 @@ class Demo extends Frame {
         pmiddle = new Panel();
         pmiddle.setLayout(new GridBagLayout());
         pmiddle.setBackground(Color.white);
-        pmiddle.setPreferredSize(new Dimension(70,70));
+        pmiddle.setPreferredSize(new Dimension(600,300));
         add(pmiddle);
 
         pmid = new Panel();
